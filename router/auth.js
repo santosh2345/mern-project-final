@@ -12,9 +12,7 @@ const { Router } = require('express');
 const cookieParser = require("cookie-parser");
 router.use(cookieParser())
 
-router.get('/', (req, res) => {
-    res.send(`Hello world from the server from router`);
-});
+
 
 // =========== user REGISTRATION part ===========================================
 
